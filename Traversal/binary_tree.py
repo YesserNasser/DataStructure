@@ -5,6 +5,7 @@ Created on Fri Sep  6 13:43:20 2019
 @author: Yesser H. Nasser 
 """
 " ============Traversal in Binary Tree ====================="""
+""" ======== Preorder | Inorder | Postorder ================"""
 class Node(object):
     def __init__(self, value):
         self.value = value
