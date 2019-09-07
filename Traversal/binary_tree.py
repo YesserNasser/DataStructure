@@ -5,7 +5,6 @@ Created on Fri Sep  6 13:43:20 2019
 @author: Yesser H. Nasser 
 """
 " ============Traversal in Binary Tree ====================="""
-
 class Node(object):
     def __init__(self, value):
         self.value = value
@@ -15,9 +14,6 @@ class Node(object):
 class BinaryTree(object):
     def __init__(self, root):
         self.root = Node(root)
-    #create a pre-order print function which will be respnsible for printing out the nodes in pre-order fashion    
-    #take self since its a member of the calss start is the node that is going to be updated on every recursive call
-
     def print_tree(self, traversal_type):
         if traversal_type == "preorder":
             return self.preorder_print(tree.root, "")
